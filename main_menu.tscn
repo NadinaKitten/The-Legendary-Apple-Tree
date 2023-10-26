@@ -1,0 +1,157 @@
+[gd_scene load_steps=9 format=3 uid="uid://b23e6enjeff5b"]
+
+[ext_resource type="Script" path="res://main_menu.gd" id="1_qbig5"]
+[ext_resource type="Theme" uid="uid://dqiic5vew0v7e" path="res://Themes/BlueUI.tres" id="1_qdk02"]
+[ext_resource type="AudioStream" uid="uid://cnmrg3ymxwxbj" path="res://Music/mysteriouswinds.mp3" id="2_m7unp"]
+[ext_resource type="PackedScene" uid="uid://d2hdfydmhphm8" path="res://AvatarSelection.tscn" id="4_nm207"]
+[ext_resource type="Texture2D" uid="uid://yb6nvsv56xom" path="res://Tilesets/UI_ELEMENTS/mute.png" id="5_qvaxn"]
+[ext_resource type="PackedScene" uid="uid://dcu3xdosp8tqx" path="res://credits.tscn" id="6_qctrw"]
+
+[sub_resource type="Gradient" id="Gradient_cdq5x"]
+colors = PackedColorArray(0.180653, 0.723632, 0.790399, 1, 0, 0.413834, 0.413862, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_8xjti"]
+gradient = SubResource("Gradient_cdq5x")
+repeat = 2
+
+[node name="MainMenu" type="CanvasLayer"]
+script = ExtResource("1_qbig5")
+
+[node name="Background" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_8xjti")
+
+[node name="IntroScreen" type="CanvasLayer" parent="."]
+
+[node name="Mute" type="Button" parent="IntroScreen"]
+offset_left = 680.0
+offset_top = 24.0
+offset_right = 752.0
+offset_bottom = 96.0
+toggle_mode = true
+icon = ExtResource("5_qvaxn")
+flat = true
+
+[node name="NewGame" type="Button" parent="IntroScreen"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -25.0
+offset_right = 100.0
+offset_bottom = 25.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_qdk02")
+text = "New Game"
+
+[node name="LoadGame" type="Button" parent="IntroScreen"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = 30.0
+offset_right = 100.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_qdk02")
+text = "Load Game"
+
+[node name="Credits" type="Button" parent="IntroScreen"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = 85.0
+offset_right = 100.0
+offset_bottom = 135.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_qdk02")
+text = "Credits"
+
+[node name="Label" type="Label" parent="IntroScreen"]
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 25.0
+offset_bottom = 51.0
+grow_horizontal = 2
+theme = ExtResource("1_qdk02")
+text = "The Legendary Apple Tree"
+horizontal_alignment = 1
+
+[node name="ChooseFile" type="CanvasLayer" parent="."]
+visible = false
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ChooseFile"]
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -230.0
+offset_top = 64.0
+offset_right = 242.0
+offset_bottom = -60.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SaveSlot1" type="Button" parent="ChooseFile/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 7
+theme = ExtResource("1_qdk02")
+text = "Save File 1"
+
+[node name="SaveSlot2" type="Button" parent="ChooseFile/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 7
+theme = ExtResource("1_qdk02")
+text = "Save File 2"
+
+[node name="SaveSlot3" type="Button" parent="ChooseFile/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 7
+theme = ExtResource("1_qdk02")
+text = "Save File 3"
+expand_icon = true
+
+[node name="FileBack" type="Button" parent="ChooseFile"]
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 194.0
+offset_bottom = 39.0
+theme = ExtResource("1_qdk02")
+text = "To Previous Screen"
+
+[node name="PlayerCreation" type="CanvasLayer" parent="."]
+visible = false
+
+[node name="AvatarSelection" parent="PlayerCreation" instance=ExtResource("4_nm207")]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_m7unp")
+autoplay = true
+
+[node name="Credits" parent="." instance=ExtResource("6_qctrw")]
+visible = false
+
+[connection signal="toggled" from="IntroScreen/Mute" to="." method="_on_mute_toggled"]
+[connection signal="pressed" from="IntroScreen/NewGame" to="." method="_on_new_game_pressed"]
+[connection signal="pressed" from="IntroScreen/Credits" to="." method="_on_credits_pressed"]
+[connection signal="pressed" from="ChooseFile/VBoxContainer/SaveSlot1" to="." method="_on_save_slot_1_pressed"]
+[connection signal="pressed" from="ChooseFile/VBoxContainer/SaveSlot2" to="." method="_on_save_slot_2_pressed"]
+[connection signal="pressed" from="ChooseFile/VBoxContainer/SaveSlot3" to="." method="_on_save_slot_3_pressed"]
+[connection signal="pressed" from="ChooseFile/FileBack" to="." method="_on_file_back_pressed"]
+[connection signal="Back" from="PlayerCreation/AvatarSelection" to="." method="_on_avatar_selection_back"]
+[connection signal="StartGame" from="PlayerCreation/AvatarSelection" to="." method="_on_avatar_selection_start_game"]
+[connection signal="finished" from="AudioStreamPlayer" to="." method="_on_audio_stream_player_finished"]

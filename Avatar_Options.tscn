@@ -1,0 +1,391 @@
+[gd_scene load_steps=36 format=3 uid="uid://co805t2g3nf5w"]
+
+[ext_resource type="Script" path="res://Avatar_Options.gd" id="1_dgnym"]
+[ext_resource type="Texture2D" uid="uid://sh3lto5rk8hu" path="res://All.png" id="1_vdtky"]
+[ext_resource type="Texture2D" uid="uid://b35qjo0rf1w61" path="res://Tilesets/UI_ELEMENTS/previews/arrowsup.png" id="3_kung5"]
+[ext_resource type="Theme" uid="uid://cryd12566k34s" path="res://Themes/messedup.tres" id="3_mfnpg"]
+[ext_resource type="Texture2D" uid="uid://dhr17kv7f2lnu" path="res://Tilesets/UI_ELEMENTS/previews/arrowsdown.png" id="4_mur7h"]
+[ext_resource type="Texture2D" uid="uid://bnocfdouwpbdu" path="res://Tilesets/UI_ELEMENTS/previews/arrowsright.png" id="5_n4q34"]
+[ext_resource type="Texture2D" uid="uid://6vr1kwwo8cxx" path="res://Tilesets/UI_ELEMENTS/previews/arrowsleft.png" id="6_k74ph"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_weco3"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(3, 3, 42, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_upaa8"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(54, 3, 36, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vrv1v"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(102, 6, 36, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xikfb"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(150, 6, 36, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_plq4u"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(198, 3, 36, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_da3gm"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(246, 6, 36, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7mitm"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(6, 57, 36, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fyhqy"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(51, 57, 42, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mlrw6"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(102, 57, 36, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h36jk"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(150, 57, 36, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oruqv"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(198, 54, 36, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ysomt"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(246, 57, 36, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_31sl3"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(6, 105, 36, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lcxri"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(54, 108, 36, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_il57c"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(102, 105, 36, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kchtv"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(150, 108, 36, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5346i"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(198, 105, 36, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wfuxm"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(246, 105, 36, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vnk8c"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(6, 156, 36, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q6p23"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(54, 159, 36, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q81th"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(102, 159, 36, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vix7c"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(150, 156, 36, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fwp52"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(198, 159, 36, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lqcxk"]
+atlas = ExtResource("1_vdtky")
+region = Rect2(246, 156, 36, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8bv4c"]
+atlas = ExtResource("3_kung5")
+region = Rect2(1, 2, 22, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_unifw"]
+atlas = ExtResource("4_mur7h")
+region = Rect2(1, 2, 22, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0aha7"]
+atlas = ExtResource("5_n4q34")
+region = Rect2(2, 1, 20, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i8lg4"]
+atlas = ExtResource("6_k74ph")
+region = Rect2(2, 1, 20, 22)
+
+[node name="AvatarOptions" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 51.0
+offset_bottom = 1.0
+script = ExtResource("1_dgnym")
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 0
+offset_left = 70.0
+offset_top = 32.0
+offset_right = 375.0
+offset_bottom = 259.0
+columns = 6
+
+[node name="Avatar1" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_weco3")
+icon_alignment = 1
+
+[node name="Avatar2" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_upaa8")
+icon_alignment = 1
+
+[node name="Avatar3" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_vrv1v")
+icon_alignment = 1
+
+[node name="Avatar4" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_xikfb")
+icon_alignment = 1
+
+[node name="Avatar5" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_plq4u")
+icon_alignment = 1
+
+[node name="Avatar6" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_da3gm")
+icon_alignment = 1
+
+[node name="Avatar7" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_7mitm")
+icon_alignment = 1
+
+[node name="Avatar8" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_fyhqy")
+icon_alignment = 1
+
+[node name="Avatar9" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_mlrw6")
+icon_alignment = 1
+
+[node name="Avatar10" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_h36jk")
+icon_alignment = 1
+
+[node name="Avatar11" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_oruqv")
+icon_alignment = 1
+
+[node name="Avatar12" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_ysomt")
+icon_alignment = 1
+
+[node name="Avatar13" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_31sl3")
+icon_alignment = 1
+
+[node name="Avatar14" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_lcxri")
+icon_alignment = 1
+
+[node name="Avatar15" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_il57c")
+icon_alignment = 1
+
+[node name="Avatar16" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_kchtv")
+icon_alignment = 1
+
+[node name="Avatar17" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_5346i")
+icon_alignment = 1
+
+[node name="Avatar18" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_wfuxm")
+icon_alignment = 1
+
+[node name="Avatar19" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_vnk8c")
+icon_alignment = 1
+
+[node name="Avatar20" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_q6p23")
+icon_alignment = 1
+
+[node name="Avatar21" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_q81th")
+icon_alignment = 1
+
+[node name="Avatar22" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_vix7c")
+icon_alignment = 1
+
+[node name="Avatar23" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_fwp52")
+icon_alignment = 1
+
+[node name="Avatar24" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+icon = SubResource("AtlasTexture_lqcxk")
+icon_alignment = 1
+
+[node name="Preview" type="Label" parent="."]
+layout_mode = 0
+offset_left = 543.0
+offset_top = 32.0
+offset_right = 657.0
+offset_bottom = 76.0
+theme = ExtResource("3_mfnpg")
+text = "Preview"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 67.0
+offset_top = 293.0
+offset_right = 383.0
+offset_bottom = 381.0
+theme = ExtResource("3_mfnpg")
+text = "Click a button above
+to choose your avatar."
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(595, 104)
+scale = Vector2(3, 3)
+offset = Vector2(0, -1)
+
+[node name="Up" type="Button" parent="AnimatedSprite2D"]
+offset_left = -3.0
+offset_top = 17.0
+offset_right = 27.0
+offset_bottom = 45.0
+scale = Vector2(0.25, 0.25)
+icon = SubResource("AtlasTexture_8bv4c")
+
+[node name="Down" type="Button" parent="AnimatedSprite2D"]
+offset_left = -3.0
+offset_top = 27.0
+offset_right = 27.0
+offset_bottom = 55.0
+scale = Vector2(0.25, 0.25)
+icon = SubResource("AtlasTexture_unifw")
+
+[node name="Right" type="Button" parent="AnimatedSprite2D"]
+offset_left = 7.0
+offset_top = 23.0
+offset_right = 35.0
+offset_bottom = 53.0
+scale = Vector2(0.25, 0.25)
+icon = SubResource("AtlasTexture_0aha7")
+
+[node name="Left" type="Button" parent="AnimatedSprite2D"]
+offset_left = -13.0
+offset_top = 23.0
+offset_right = 15.0
+offset_bottom = 53.0
+scale = Vector2(0.25, 0.25)
+icon = SubResource("AtlasTexture_i8lg4")
+
+[connection signal="pressed" from="GridContainer/Avatar1" to="." method="_on_avatar_1_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar2" to="." method="_on_avatar_2_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar3" to="." method="_on_avatar_3_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar4" to="." method="_on_avatar_4_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar5" to="." method="_on_avatar_5_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar6" to="." method="_on_avatar_6_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar7" to="." method="_on_avatar_7_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar8" to="." method="_on_avatar_8_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar9" to="." method="_on_avatar_9_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar10" to="." method="_on_avatar_10_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar11" to="." method="_on_avatar_11_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar12" to="." method="_on_avatar_12_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar13" to="." method="_on_avatar_13_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar14" to="." method="_on_avatar_14_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar15" to="." method="_on_avatar_15_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar16" to="." method="_on_avatar_16_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar17" to="." method="_on_avatar_17_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar18" to="." method="_on_avatar_18_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar19" to="." method="_on_avatar_19_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar20" to="." method="_on_avatar_20_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar21" to="." method="_on_avatar_21_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar22" to="." method="_on_avatar_22_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar23" to="." method="_on_avatar_23_pressed"]
+[connection signal="pressed" from="GridContainer/Avatar24" to="." method="_on_avatar_24_pressed"]
+[connection signal="pressed" from="AnimatedSprite2D/Up" to="." method="_on_up_pressed"]
+[connection signal="pressed" from="AnimatedSprite2D/Down" to="." method="_on_down_pressed"]
+[connection signal="pressed" from="AnimatedSprite2D/Right" to="." method="_on_right_pressed"]
+[connection signal="pressed" from="AnimatedSprite2D/Left" to="." method="_on_left_pressed"]

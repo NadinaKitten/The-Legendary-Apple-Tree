@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://c06ywb2751e7q"]
+
+[ext_resource type="SpriteFrames" uid="uid://xoiqja6anjeq" path="res://crops/crops-v2/Potatoes.tres" id="1_aabxo"]
+[ext_resource type="SpriteFrames" uid="uid://bwg848fb5c6e0" path="res://crops/crops-v2/Carrots.tres" id="2_7n518"]
+
+[node name="CropAnimations" type="ResourcePreloader"]
+
+[node name="Potatoes" type="AnimatedSprite2D" parent="."]
+position = Vector2(120, 112)
+sprite_frames = ExtResource("1_aabxo")
+speed_scale = 0.0
+offset = Vector2(0, -16)
+
+[node name="Carrots" type="AnimatedSprite2D" parent="."]
+position = Vector2(88, 112)
+sprite_frames = ExtResource("2_7n518")
+speed_scale = 0.0
+offset = Vector2(0, -16)

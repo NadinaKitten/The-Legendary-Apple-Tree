@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://ctokyhxrlmjxj"]
+
+[ext_resource type="Script" path="res://Player.gd" id="1_7g5kn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5lb28"]
+size = Vector2(12, 7)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+y_sort_enabled = true
+scale = Vector2(1.9, 1.9)
+collision_layer = 2
+collision_mask = 25
+input_pickable = true
+slide_on_ceiling = false
+script = ExtResource("1_7g5kn")
+speed = 200
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 5.5)
+scale = Vector2(1.01039, 0.863527)
+shape = SubResource("RectangleShape2D_5lb28")

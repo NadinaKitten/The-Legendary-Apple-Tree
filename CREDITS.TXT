@@ -1,0 +1,496 @@
+Title: GemFont98 True Type Font
+
+Font:
+https://www.dafont.com/dumbledor.font?l[]=10&l[]=1&text=The+Legendary+Apple+Tree
+
+Testing:
+Silent_Watcher on discord
+
+--------------------------------------------------
+
+Title:
+    Tiny Characters Set
+
+Author:
+    Fleurman
+
+URL:
+    https://opengameart.org/content/tiny-characters-set
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+File(s):
+    * 32_Characters.zip
+
+----------------------------------------
+
+Title:
+    [LPC] Crops
+
+Author:
+    bluecarrot16
+
+URL:
+    https://opengameart.org/content/lpc-crops
+
+License(s):
+    * CC-BY-SA 4.0 (  )
+    * CC-BY-SA 3.0 ( http://creativecommons.org/licenses/by-sa/3.0/legalcode )
+    * GPL 3.0 ( http://www.gnu.org/licenses/gpl-3.0.html )
+
+Copyright/Attribution Notice:
+    "[LPC] Crops" by bluecarrot16, Daniel Eddeland (daneeklu), Joshua Taylor, Richard Kettering (Jetrel). Commissioned by castelonia. See CREDITS-crops.txt. You MUST include all information in the "ATTRIBUTION STATEMENT" section of this file.
+
+# ATTRIBUTION STATEMENT
+
+"[LPC] Crops" by bluecarrot16, Daniel Eddeland (daneeklu), Joshua Taylor, Richard Kettering (Jetrel). Commissioned by castelonia. License CC-BY-SA 3.0+ or GPL 3.0+. https://opengameart.org/content/lpc-crops
+
+BASED ON:
+
+[LPC] Farming tilesets, magic animations and UI elements
+DE = Daniel Eddeland
+CC-BY-SA 3.0 / GPL 3.0
+https://opengameart.org/content/rpg-item-set
+
+Fruit and Veggie Inventory
+JT = Joshua Taylor
+CC-BY-SA 3.0 / GPL 3.0 
+https://opengameart.org/content/fruit-and-veggie-inventory
+
+RPG item set
+RK = Richard Kettering (Jetrel)
+CC0
+https://opengameart.org/content/rpg-item-set
+
+File(s):
+    * crops.zip
+    * crops-v2.1.zip
+
+----------------------------------------
+
+Title:
+    LPC Tile Atlas
+
+Author:
+    See Attribution.txt
+
+URL:
+    https://opengameart.org/content/lpc-tile-atlas
+
+License(s):
+    * CC-BY-SA 3.0 ( http://creativecommons.org/licenses/by-sa/3.0/legalcode )
+    * GPL 3.0 ( http://www.gnu.org/licenses/gpl-3.0.html )
+
+SPECIAL ATTRIBUTION INSTRUCTIONS:
+    The zip contains a nifty attribution file so you can drop it and forget.
+
+License
+-------
+
+CC-BY-SA 3.0:
+ - http://creativecommons.org/licenses/by-sa/3.0/
+ - See the file: cc-by-sa-3.0.txt
+GNU GPL 3.0:
+ - http://www.gnu.org/licenses/gpl-3.0.html
+ - See the file: gpl-3.0.txt
+
+Note the file is based on the LCP contest readme so don't expect the exact little pieces used like the base one.
+*Additional license information.
+
+Assets from:
+
+LPC participants:
+----------------
+
+Casper Nilsson
+	*GNU GPL 3.0 or later
+	email: casper.nilsson@gmail.com
+	Freenode: CasperN
+	OpenGameArt.org: C.Nilsson
+	
+ - LPC C.Nilsson (2D art)
+
+Daniel Eddeland 
+	*GNU GPL 3.0 or later
+ - Tilesets of plants, props, food and environments, suitable for farming / fishing sims and other games. 
+ - Includes wheat, grass, sand tilesets, fence tilesets and plants such as corn and tomato. 
+
+
+Johann CHARLOT 
+	*GNU LGPL Version 3. 
+	*Later versions are permitted.
+	Homepage  http://poufpoufproduction.fr
+	Email     johannc@poufpoufproduction.fr
+	
+ - Shoot'em up graphic kit
+
+Skyler Robert Colladay 
+
+ - FeralFantom's Entry (2D art)
+
+BASE assets:
+------------
+
+Lanea Zimmerman (AKA Sharm)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ - barrel.png
+ - brackish.png
+ - buckets.png
+ - bridges.png
+ - cabinets.png
+ - cement.png
+ - cementstair.png
+ - chests.png
+ - country.png
+ - cup.png
+ - dirt2.png
+ - dirt.png
+ - dungeon.png
+ - grassalt.png
+ - grass.png
+ - holek.png
+ - holemid.png
+ - hole.png
+ - house.png
+ - inside.png
+ - kitchen.png
+ - lava.png
+ - lavarock.png
+ - mountains.png
+ - rock.png
+ - shadow.png
+ - signs.png
+ - stairs.png
+ - treetop.png
+ - trunk.png
+ - waterfall.png
+ - watergrass.png
+ - water.png
+ - princess.png and princess.xcf
+
+
+Stephen Challener (AKA Redshrike)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ - female_walkcycle.png
+ - female_hurt.png
+ - female_slash.png
+ - female_spellcast.png
+ - male_walkcycle.png
+ - male_hurt.png
+ - male_slash.png
+ - male_spellcast.png
+ - male_pants.png
+ - male_hurt_pants.png
+ - male_fall_down_pants.png
+ - male_slash_pants.png
+
+
+Charles Sanchez (AKA CharlesGabriel)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ - bat.png
+ - bee.png
+ - big_worm.png
+ - eyeball.png
+ - ghost.png
+ - man_eater_flower.png
+ - pumpking.png
+ - slime.png
+ - small_worm.png
+ - snake.png
+
+
+Manuel Riecke (AKA MrBeast)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ - hairfemale.png and hairfemale.xcf
+ - hairmale.png and hairmale.xcf
+ - soldier.png
+ - soldier_altcolor.png
+
+
+Daniel Armstrong (AKA HughSpectrum)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Castle work:
+
+ - castlewalls.png
+ - castlefloors.png
+ - castle_outside.png
+ - castlefloors_outside.png
+ - castle_lightsources.png
+
+File(s):
+    * Atlas.zip
+
+----------------------------------------
+
+Title:
+    [LPC] Pennomi&#039;s UI Elements
+
+Author:
+    pennomi
+
+Collaborators:
+    Buch, cemkalyoncu
+
+URL:
+    https://opengameart.org/content/lpc-pennomis-ui-elements
+
+License(s):
+    * CC-BY-SA 3.0 ( http://creativecommons.org/licenses/by-sa/3.0/legalcode )
+    * GPL 3.0 ( http://www.gnu.org/licenses/gpl-3.0.html )
+
+SPECIAL ATTRIBUTION INSTRUCTIONS:
+    Please attribute all collaborators and include a link back to OpenGameArt.org
+
+File(s):
+    * UI_ELEMENTS.zip
+    * expansion_pack.zip
+
+----------------------------------------
+
+Title:
+    [LPC] Floors
+
+Author:
+    bluecarrot16
+
+URL:
+    https://opengameart.org/content/lpc-floors
+
+License(s):
+    * CC-BY-SA 4.0 (  )
+
+Copyright/Attribution Notice:
+    "[LPC] Floors" by bluecarrot16, Lanea Zimmerman (Sharm), William Thompson (William.Thompsonj), Hyptosis, SpiderDave, Cougarmint, Stephen Challener (Redshrike), Bonsaiheldin, Tyler Olsen (Roots), Jetrel, jestan, The Open Surge team (http://opensnc.sourceforge.net), Gaurav Munjal, Reemax, Silveira Neto, bleutailfly, Casper Nilsson, NaRNeRZz, Buch, keith karnage, Arthur Carvalho, Guilherme Vieira (n2liquid), Chris Hamons (maintainer). CC-BY-SA 4.0. See CREDITS-floors.txt
+
+
+
+File(s):
+    * lpc-floors.zip
+
+----------------------------------------
+
+Title:
+    Mysterious Winds
+
+Author:
+    A_Thor
+
+URL:
+    https://opengameart.org/content/mysterious-winds
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+File(s):
+    * mysteriouswinds.mp3
+    * mysteriouswinds.band_.zip
+
+----------------------------------------
+
+Title:
+    peaceful theme
+
+Author:
+    pebonius
+
+URL:
+    https://opengameart.org/content/peaceful-theme
+Itch:
+	https://pebonius.itch.io/
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+File(s):
+    * peaceful-theme.ogg
+
+----------------------------------------
+
+Title:
+    OGA Community Tileset: Nature
+
+Author:
+    Various (see description)
+	qubodup
+	Bart K.
+	Blarumyrran
+
+URL:
+    https://opengameart.org/content/oga-community-tileset-nature
+
+License(s):
+    * GPL 2.0 ( http://www.gnu.org/licenses/old-licenses/gpl-2.0.html )
+    * GPL 3.0 ( http://www.gnu.org/licenses/gpl-3.0.html )
+    * CC-BY-SA 3.0 ( http://creativecommons.org/licenses/by-sa/3.0/legalcode )
+
+File(s):
+    * grass-tiles-2-small.png
+    * tree2-final.png
+    * kaljusuurem.png
+    * littleshrooms.png
+    * qubodup-bush_0.png
+    * qubodup-bush_berries_0.png
+
+----------------------------------------
+
+Title:
+    Farming Set (Pixel-Art)
+
+Author:
+    ScratchIO
+
+URL:
+    https://opengameart.org/content/farming-set-pixel-art
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+File(s):
+    * Farming Stuff.zip
+
+----------------------------------------
+
+Title:
+    RPG Weapons and tools
+
+Author:
+    PracticalNPC
+
+URL:
+    https://opengameart.org/content/rpg-weapons-and-tools
+
+License(s):
+    * CC-BY 4.0 ( https://creativecommons.org/licenses/by/4.0/legalcode )
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+Copyright/Attribution Notice:
+    If you'd like to credit me please use my alias PracticalNPC or website: 
+https://mygamedesign.com/
+
+File(s):
+    * 16x16_weapons.png
+
+----------------------------------------
+
+Title:
+    pouch with gold
+
+Author:
+    knik1985
+
+URL:
+    https://opengameart.org/content/pouch-with-gold
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+File(s):
+    * puch_preview.png
+    * pouch with gold.svg
+
+----------------------------------------
+
+Title:
+    Tent Rework
+
+Author:
+    AntumDeluge
+
+URL:
+    https://opengameart.org/content/tent-rework
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+    * GPL 3.0 ( http://www.gnu.org/licenses/gpl-3.0.html )
+    * GPL 2.0 ( http://www.gnu.org/licenses/old-licenses/gpl-2.0.html )
+    * OGA-BY 3.0 ( http://static.opengameart.org/OGA-BY-3.0.txt )
+
+Copyright/Attribution Notice:
+    bluecarrot16, Sharm (Lanea Zimmerman), William Thompson, xhunterko, Jordan Irwin (AntumDeluge)
+
+File(s):
+    * tent-0.3.zip
+
+----------------------------------------
+
+Title:
+    [LPC] Upholstery
+
+Author:
+    bluecarrot16
+
+URL:
+    https://opengameart.org/content/lpc-upholstery
+
+License(s):
+    * CC-BY 4.0 ( https://creativecommons.org/licenses/by/4.0/legalcode )
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+    * CC-BY-SA 4.0 (  )
+    * CC-BY-SA 3.0 ( http://creativecommons.org/licenses/by-sa/3.0/legalcode )
+    * GPL 3.0 ( http://www.gnu.org/licenses/gpl-3.0.html )
+    * OGA-BY 3.0 ( http://static.opengameart.org/OGA-BY-3.0.txt )
+
+Copyright/Attribution Notice:
+    "[LPC] Upholstery" by bluecarrot16, Lanea Zimmerman (Sharm). Please link back to https://opengameart.org/content/lpc-upholstery and  https://opengameart.org/content/lpc-interior-castle-tiles . 
+
+File(s):
+    * upholstery.png
+
+----------------------------------------
+
+Title:
+    play, pause, mute and unmute buttons
+
+Author:
+    mikhog
+
+URL:
+    https://opengameart.org/content/play-pause-mute-and-unmute-buttons
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+SPECIAL ATTRIBUTION INSTRUCTIONS:
+    Attribute if you feel like it :)
+
+If so you could attribute with link to this site.
+
+File(s):
+    * mute.png
+    * unmute.png
+    * pause.png
+    * play.png
+    * stop_blue.png
+    * stop_red.png
+    * fast backward.png
+    * fast forward.png
+    * buttons.xcf
+    * plus.png
+    * minus.png
+
+----------------------------------------
+
+Title:
+    UI Black Button settings
+
+Author:
+    Anatoly753
+
+URL:
+    https://opengameart.org/content/ui-black-button-settings
+
+License(s):
+    * CC-BY 4.0 ( https://creativecommons.org/licenses/by/4.0/legalcode )
+
+File(s):
+    * menu_2_2_2.png
+
+----------------------------------------
+
+

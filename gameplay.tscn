@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://pt24soribx26"]
+
+[ext_resource type="Script" path="res://gameplay.gd" id="1_0w8vs"]
+[ext_resource type="PackedScene" uid="uid://b23e6enjeff5b" path="res://main_menu.tscn" id="2_c0fjj"]
+[ext_resource type="PackedScene" uid="uid://ct3ti2eknk42r" path="res://test_play.tscn" id="3_jnwdy"]
+
+[node name="Gameplay" type="Control"]
+custom_minimum_size = Vector2(780, 420)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0w8vs")
+
+[node name="MainMenu" parent="." instance=ExtResource("2_c0fjj")]
+
+[node name="StartPosition" type="Marker2D" parent="."]
+position = Vector2(576, 448)
+
+[node name="test_play" parent="." instance=ExtResource("3_jnwdy")]
+
+[connection signal="NewStart" from="MainMenu" to="." method="_on_main_menu_new_start"]
+[connection signal="VolumeUpdate" from="test_play" to="." method="_on_test_play_volume_update"]

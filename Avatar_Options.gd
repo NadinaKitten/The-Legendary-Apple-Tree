@@ -1,6 +1,6 @@
 extends Control
 signal change_avatar
-#add all of the Avatar options, connect to button pressed
+
 var Avatar1 = load("res://Sprites/Avatar1.tres")
 var Avatar2 = load("res://Sprites/Avatar2.tres")
 var Avatar3 = load("res://Sprites/Avatar3.tres")
@@ -13,14 +13,18 @@ var Avatar9 = load("res://Sprites/Avatar9.tres")
 var Avatar10 = load("res://Sprites/Avatar10.tres")
 var Avatar11 = load("res://Sprites/Avatar11.tres")
 var Avatar12 = load("res://Sprites/Avatar12.tres")
-
-
-
-
-
-
-
-
+var Avatar13 = load("res://Sprites/Avatar13.tres")
+var Avatar14 = load("res://Sprites/Avatar14.tres")
+var Avatar15 = load("res://Sprites/Avatar15.tres")
+var Avatar16 = load("res://Sprites/Avatar16.tres")
+var Avatar17 = load("res://Sprites/Avatar17.tres")
+var Avatar18 = load("res://Sprites/Avatar18.tres")
+var Avatar19 = load("res://Sprites/Avatar19.tres")
+var Avatar20 = load("res://Sprites/Avatar20.tres")
+var Avatar21 = load("res://Sprites/Avatar21.tres")
+var Avatar22 = load("res://Sprites/Avatar22.tres")
+var Avatar23 = load("res://Sprites/Avatar23.tres")
+var Avatar24 = load("res://Sprites/Avatar24.tres")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -77,6 +81,54 @@ func _on_avatar_11_pressed():
 func _on_avatar_12_pressed():
 	$AnimatedSprite2D.sprite_frames = Avatar12
 	change_avatar.emit("res://Sprites/Avatar12.tres")
+	
+func _on_avatar_13_pressed():
+	$AnimatedSprite2D.sprite_frames = Avatar13
+	change_avatar.emit("res://Sprites/Avatar13.tres")
+	
+func _on_avatar_14_pressed():
+	$AnimatedSprite2D.sprite_frames = Avatar14
+	change_avatar.emit("res://Sprites/Avatar14.tres")
+	
+func _on_avatar_15_pressed():
+	$AnimatedSprite2D.sprite_frames = Avatar15
+	change_avatar.emit("res://Sprites/Avatar15.tres")
+	
+func _on_avatar_16_pressed():
+	$AnimatedSprite2D.sprite_frames = Avatar16
+	change_avatar.emit("res://Sprites/Avatar16.tres")
+	
+func _on_avatar_17_pressed():
+	$AnimatedSprite2D.sprite_frames = Avatar17
+	change_avatar.emit("res://Sprites/Avatar17.tres")
+	
+func _on_avatar_18_pressed():
+	$AnimatedSprite2D.sprite_frames = Avatar18
+	change_avatar.emit("res://Sprites/Avatar18.tres")
+	
+func _on_avatar_19_pressed():
+	$AnimatedSprite2D.sprite_frames = Avatar19
+	change_avatar.emit("res://Sprites/Avatar19.tres")
+	
+func _on_avatar_20_pressed():
+	$AnimatedSprite2D.sprite_frames = Avatar20
+	change_avatar.emit("res://Sprites/Avatar20.tres")
+	
+func _on_avatar_21_pressed():
+	$AnimatedSprite2D.sprite_frames = Avatar21
+	change_avatar.emit("res://Sprites/Avatar21.tres")
+	
+func _on_avatar_22_pressed():
+	$AnimatedSprite2D.sprite_frames = Avatar22
+	change_avatar.emit("res://Sprites/Avatar22.tres")
+	
+func _on_avatar_23_pressed():
+	$AnimatedSprite2D.sprite_frames = Avatar23
+	change_avatar.emit("res://Sprites/Avatar23.tres")
+	
+func _on_avatar_24_pressed():
+	$AnimatedSprite2D.sprite_frames = Avatar24
+	change_avatar.emit("res://Sprites/Avatar24.tres")
 
 func _on_up_pressed():
 	if $AnimatedSprite2D/Up:

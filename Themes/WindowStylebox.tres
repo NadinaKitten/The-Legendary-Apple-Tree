@@ -1,0 +1,14 @@
+[gd_resource type="StyleBoxTexture" load_steps=3 format=3 uid="uid://dhsj03sj8u40x"]
+
+[ext_resource type="Texture2D" uid="uid://c3hral0ms0rxb" path="res://Tilesets/UI_ELEMENTS/previews/input.png" id="1_om7vr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eaejo"]
+atlas = ExtResource("1_om7vr")
+region = Rect2(1, 0, 128, 20)
+
+[resource]
+content_margin_left = 18.0
+content_margin_top = 3.0
+content_margin_right = 16.0
+content_margin_bottom = 11.0
+texture = SubResource("AtlasTexture_eaejo")

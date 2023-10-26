@@ -1,6 +1,9 @@
 extends Area2D
 signal PlotClicked
-
+var crop_name : String
+var fully_grown : int
+var stages : Dictionary
+var growing_for = 0
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
@@ -8,6 +11,18 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
+
+func update_vars(plot_name, crop):
+	if plot_name == name:  #find the dictionary matching the crop, and load it's values into vars above.
+		crop_name = crop
+	else:
+		pass
+
+func next_day():
+	if $AnimatedSprite2D.sprite_frames:
+		growing_for += 1
+	else:
+		pass
 
 func _on_mouse_entered():
 	if $"/root/PlayerData".player_in_FZ_1 == true:

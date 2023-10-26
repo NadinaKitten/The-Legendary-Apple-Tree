@@ -1,0 +1,146 @@
+<mxfile host="Electron" modified="2023-10-26T04:12:58.688Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="dAGnSPNcH4fsy5lXRHJb" version="22.0.3" type="device">
+  <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
+    <mxGraphModel dx="874" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_5mSTuPxr-ZiKRkBDSY7-1" value="" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;fontFamily=Permanent Marker;fontSize=16;points=[];verticalAlign=top;stackBorder=0;resizable=1;strokeWidth=2;sketch=1;disableMultiStroke=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="160" y="80" width="540" height="1910" as="geometry" />
+        </mxCell>
+        <object label="TO DO" status="New" id="_5mSTuPxr-ZiKRkBDSY7-2">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#A0522D;" parent="_5mSTuPxr-ZiKRkBDSY7-1" vertex="1">
+            <mxGeometry y="28" width="180" height="1882" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Add Seed stage for crops" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-3">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;fillColor=#f8cecc;strokeColor=default;" parent="_5mSTuPxr-ZiKRkBDSY7-2" vertex="1">
+            <mxGeometry x="20" y="21" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Icon in load buttons to indicate existing file" placeholders="1" id="HsKcffzPJkhcYYVR3HhQ-4">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#b85450;" parent="_5mSTuPxr-ZiKRkBDSY7-2" vertex="1">
+            <mxGeometry x="20" y="121" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Quicksave feature, loadable" placeholders="1" id="HsKcffzPJkhcYYVR3HhQ-5">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#b85450;" parent="_5mSTuPxr-ZiKRkBDSY7-2" vertex="1">
+            <mxGeometry x="20" y="221" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="DOING" status="In progress" id="_5mSTuPxr-ZiKRkBDSY7-6">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#006600;align=center;" parent="_5mSTuPxr-ZiKRkBDSY7-1" vertex="1">
+            <mxGeometry x="180" y="28" width="180" height="1882" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Keep VS Code open with Player data script for easy reference" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-8">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#d6b656;" parent="_5mSTuPxr-ZiKRkBDSY7-6" vertex="1">
+            <mxGeometry x="20" y="21" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="move all savable variables to new Player Data singleton." placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-5">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#d6b656;" parent="_5mSTuPxr-ZiKRkBDSY7-6" vertex="1">
+            <mxGeometry x="20" y="121" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Add code to advance crop stages." placeholders="1" id="6-9kJptFHsEpUdyR9skD-3">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#d6b656;" parent="_5mSTuPxr-ZiKRkBDSY7-6" vertex="1">
+            <mxGeometry x="20" y="221" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Intro dialogue needs implemented" placeholders="1" id="4j4KKWwFaDcYV7K5ev2m-3">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#d6b656;" parent="_5mSTuPxr-ZiKRkBDSY7-6" vertex="1">
+            <mxGeometry x="20" y="321" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Implement Save/Load" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-11">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#d6b656;" parent="_5mSTuPxr-ZiKRkBDSY7-6" vertex="1">
+            <mxGeometry x="20" y="421" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="DONE" status="Completed" id="_5mSTuPxr-ZiKRkBDSY7-9">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#1BA1E2;" parent="_5mSTuPxr-ZiKRkBDSY7-1" vertex="1">
+            <mxGeometry x="360" y="28" width="180" height="1882" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Figure out TileMap" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-10">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#82b366;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
+            <mxGeometry x="20" y="21" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Decide on a name for the game!" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-12">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#82b366;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
+            <mxGeometry x="20" y="121" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Added seeds button - can select which seed to plant.&lt;br&gt;When clicking on tilled soil - allow planting seeds" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-4">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#82b366;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
+            <mxGeometry x="20" y="221" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;div style=&quot;&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Link Farm Plot Clicked to Tile Map and update TileMap.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; Add line to check if hoe is equipped - can reference player data directly.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-7">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#82b366;align=left;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
+            <mxGeometry x="20" y="321" width="140" height="129" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Add check for planted state to prevent overrides." placeholders="1" id="vxkpVA0EoFk8cjaB59JQ-2">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#82b366;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
+            <mxGeometry x="20" y="470" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Add Tent" placeholders="1" id="vxkpVA0EoFk8cjaB59JQ-1">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#82b366;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
+            <mxGeometry x="20" y="570" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Add collisions to Tent Tilemaps and bed" placeholders="1" id="6-9kJptFHsEpUdyR9skD-1">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#82b366;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
+            <mxGeometry x="20" y="670" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Add code to advance time&lt;br&gt;1. Click on bed&lt;br&gt;2. UI for going to &quot;sleep&quot;" placeholders="1" id="6-9kJptFHsEpUdyR9skD-2">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#82b366;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
+            <mxGeometry x="20" y="770" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Added day tracker" placeholders="1" id="GDrum6Dw_yAcd1L0C1Lx-1">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#82b366;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
+            <mxGeometry x="20" y="870" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Added Crop Data Singleton" placeholders="1" id="HsKcffzPJkhcYYVR3HhQ-2">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#82b366;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
+            <mxGeometry x="20" y="970" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Added options menu" placeholders="1" id="HsKcffzPJkhcYYVR3HhQ-3">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#82b366;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
+            <mxGeometry x="20" y="1070" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="4j4KKWwFaDcYV7K5ev2m-1" value="24 Player Sprites added" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
+          <mxGeometry x="20" y="1170" width="140" height="60" as="geometry" />
+        </mxCell>
+        <object label="Attibution files" placeholders="1" id="cIvoMALwsxTp6OMeihza-1">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#82b366;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
+            <mxGeometry x="20" y="1250" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Fix Avatars:&lt;br&gt;8(up)(down)(default)&lt;br&gt;13(down)&lt;br&gt;15(down)" placeholders="1" id="imQzxmmpZDZJkfCcTGBT-1">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#82b366;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
+            <mxGeometry x="20" y="1350" width="140" height="79" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Music? plays, and should auto loop&lt;br&gt;Mutes when supposed to." placeholders="1" id="4j4KKWwFaDcYV7K5ev2m-4">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#82b366;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
+            <mxGeometry x="20" y="1449" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Sound Control - added volume adjuster to script" placeholders="1" id="HsKcffzPJkhcYYVR3HhQ-1">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#82b366;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
+            <mxGeometry x="20" y="1549" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

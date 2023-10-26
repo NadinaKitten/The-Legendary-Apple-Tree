@@ -1,0 +1,129 @@
+[gd_scene load_steps=6 format=3 uid="uid://d2hdfydmhphm8"]
+
+[ext_resource type="Script" path="res://AvatarSelection.gd" id="1_8nsks"]
+[ext_resource type="Theme" uid="uid://dqiic5vew0v7e" path="res://Themes/BlueUI.tres" id="3_hn6p7"]
+[ext_resource type="PackedScene" uid="uid://co805t2g3nf5w" path="res://Avatar_Options.tscn" id="4_qy7bb"]
+
+[sub_resource type="Gradient" id="Gradient_vr8bb"]
+colors = PackedColorArray(0.180653, 0.723632, 0.790399, 1, 0, 0.413834, 0.413862, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_xgcnd"]
+gradient = SubResource("Gradient_vr8bb")
+repeat = 2
+
+[node name="AvatarSelection" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_8nsks")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_xgcnd")
+
+[node name="Avatar_Options" parent="." instance=ExtResource("4_qy7bb")]
+layout_mode = 0
+offset_left = -3.0
+offset_top = 18.0
+offset_right = 302.0
+offset_bottom = 245.0
+
+[node name="PlayerName" type="LineEdit" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = 143.0
+offset_top = -146.0
+offset_right = 272.0
+offset_bottom = -115.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("3_hn6p7")
+placeholder_text = "Player Name"
+expand_to_text_length = true
+caret_blink = true
+
+[node name="StartGame" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -250.0
+offset_top = -76.0
+offset_right = -135.0
+offset_bottom = -51.0
+grow_horizontal = 0
+grow_vertical = 0
+scale = Vector2(1.2, 1.2)
+theme = ExtResource("3_hn6p7")
+text = "Start Game"
+
+[node name="Popup" type="Popup" parent="."]
+gui_embed_subwindows = true
+title = "Error!"
+initial_position = 2
+size = Vector2i(500, 150)
+
+[node name="Background" type="TextureRect" parent="Popup"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_xgcnd")
+
+[node name="ErrorMessage" type="Label" parent="Popup"]
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -30.0
+offset_bottom = -4.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("3_hn6p7")
+text = "Player Name and
+Avatar selection are required!"
+horizontal_alignment = 1
+
+[node name="OK" type="Button" parent="Popup"]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -15.5
+offset_top = -40.0
+offset_right = 15.5
+offset_bottom = -9.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("3_hn6p7")
+text = "OK"
+
+[node name="Back" type="Button" parent="."]
+layout_mode = 0
+offset_left = 19.0
+offset_top = 11.0
+offset_right = 157.0
+offset_bottom = 34.0
+theme = ExtResource("3_hn6p7")
+text = "Previous Menu"
+
+[connection signal="change_avatar" from="Avatar_Options" to="." method="_on_avatar_options_change_avatar"]
+[connection signal="pressed" from="StartGame" to="." method="_on_start_game_pressed"]
+[connection signal="pressed" from="Popup/OK" to="." method="_on_ok_pressed"]
+[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]

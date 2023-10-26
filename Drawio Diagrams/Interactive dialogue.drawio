@@ -1,0 +1,139 @@
+<mxfile host="Electron" modified="2023-10-22T16:23:30.208Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="HxY4siVs7Tl9ee2d7ix9" version="22.0.3" type="device">
+  <diagram name="Page-1" id="80U-e4HRSuJCBXA5vm9e">
+    <mxGraphModel dx="874" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0rTjfQaaKFD_HmVlAQrD-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0rTjfQaaKFD_HmVlAQrD-5" target="0rTjfQaaKFD_HmVlAQrD-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0rTjfQaaKFD_HmVlAQrD-5" value="No" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="50" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0rTjfQaaKFD_HmVlAQrD-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0rTjfQaaKFD_HmVlAQrD-8" target="hQVHSes6vSgfcRq0A9Xj-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0rTjfQaaKFD_HmVlAQrD-8" value="Yes" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="50" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0rTjfQaaKFD_HmVlAQrD-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="hQVHSes6vSgfcRq0A9Xj-7" target="0rTjfQaaKFD_HmVlAQrD-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="230" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0rTjfQaaKFD_HmVlAQrD-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0rTjfQaaKFD_HmVlAQrD-5" target="0rTjfQaaKFD_HmVlAQrD-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="70" as="targetPoint" />
+            <mxPoint x="290" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0rTjfQaaKFD_HmVlAQrD-13" value="That&#39;s fine.&amp;nbsp; Come to me if you have any questions.&lt;br&gt;Be sure to talk to one of my helper sprites if you want some clear objectives" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="330" y="40" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQVHSes6vSgfcRq0A9Xj-1" target="hQVHSes6vSgfcRq0A9Xj-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-1" value="Greeting" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="140" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-2" value="Hello!&amp;nbsp; Thanks for coming." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-1">
+          <mxGeometry y="30" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-3" value="Welcome to The Legendary Apple Tree!" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-1">
+          <mxGeometry y="70" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-4" value="I put this place together myself." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-1">
+          <mxGeometry y="110" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hQVHSes6vSgfcRq0A9Xj-7" target="0rTjfQaaKFD_HmVlAQrD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-7" value="Ask for tutorial" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="170" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-8" value="Before I let you explore, I have to ask," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-7">
+          <mxGeometry y="30" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-9" value="Would you like a tutorial?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-7">
+          <mxGeometry y="70" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-11" value="Explain farm plots" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="110" width="140" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-12" value="There are specific areas where you can till land and plant crops." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-11">
+          <mxGeometry y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-13" value="You have to be in the area before you can interact with the land." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-11">
+          <mxGeometry y="90" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-14" value="Equip your hoe to till soil, then select a seed from your pouch." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-11">
+          <mxGeometry y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-19" value="Click on a tilled plot to plant a seed." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-11">
+          <mxGeometry y="200" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-20" value="They will take a few days to grow." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-11">
+          <mxGeometry y="260" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-21" value="What&#39;s that?&amp;nbsp; There&#39;s no clock?&amp;nbsp; Of course not - I hate feeling rushed!" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-11">
+          <mxGeometry y="320" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-28" value="How do you know what time it is?&amp;nbsp; Oh, we don&#39;t use time here.&amp;nbsp; To advance to the next day, head to the tent." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-11">
+          <mxGeometry y="380" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQVHSes6vSgfcRq0A9Xj-23" target="hQVHSes6vSgfcRq0A9Xj-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-23" value="Explain the tent" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="280" width="140" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-24" value="Come into the doorway." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-23">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-25" value="See the bed?&amp;nbsp; Stand next to it." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-23">
+          <mxGeometry y="60" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-26" value="Click on it to advance to the next day." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-23">
+          <mxGeometry y="100" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-27" value="Pretty simple, right?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-23">
+          <mxGeometry y="140" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-29" value="When you&#39;ve done all you want for the day, just go to bed." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-23">
+          <mxGeometry y="190" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-30" value="As a bonus, every time you advance a day, the game will autosave." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-23">
+          <mxGeometry y="240" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-31" value="You can also save by going into the Options menu." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-23">
+          <mxGeometry y="290" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.029;entryY=0.767;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hQVHSes6vSgfcRq0A9Xj-21" target="hQVHSes6vSgfcRq0A9Xj-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-33" value="Wrap up" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="320" width="140" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-34" value="Well, that&#39;s it for farming." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-33">
+          <mxGeometry y="30" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-42" value="Eventually you&#39;ll be able to unlock more plots of land, and plant fruiit trees." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-33">
+          <mxGeometry y="80" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-46" value="For now, just enjoy planting some crops." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-33">
+          <mxGeometry y="170" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hQVHSes6vSgfcRq0A9Xj-47" value="When you want some clear objectives, my helper sprites will have requests for you." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQVHSes6vSgfcRq0A9Xj-33">
+          <mxGeometry y="260" width="140" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -2,6 +2,7 @@ extends Control
 signal ToolEquipped
 signal ToolUnequipped
 signal ToNextDay
+signal OpenMenu
 var hoe = "Hoe"
 var axe = "Axe"
 var pickaxe = "Pickaxe"
@@ -66,3 +67,9 @@ func _on_no_pressed():
 
 func _on_advance_day_close_requested():
 	$AdvanceDay.hide()
+
+func _on_button_pressed():
+	$CanvasLayer.hide()
+
+func _on_menu_button_pressed():
+	OpenMenu.emit()

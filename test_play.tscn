@@ -1,0 +1,131 @@
+[gd_scene load_steps=9 format=3 uid="uid://ct3ti2eknk42r"]
+
+[ext_resource type="PackedScene" uid="uid://rot8vm4v03nx" path="res://Maps.tscn" id="1_4dcd3"]
+[ext_resource type="Script" path="res://test_play.gd" id="1_iujun"]
+[ext_resource type="PackedScene" uid="uid://ctokyhxrlmjxj" path="res://Player.tscn" id="2_oeb5b"]
+[ext_resource type="PackedScene" uid="uid://c6pevrn0xm7sx" path="res://hud.tscn" id="4_qv1i6"]
+[ext_resource type="PackedScene" uid="uid://d2ae3rj408ax2" path="res://TreeSprites.tscn" id="5_olmav"]
+[ext_resource type="PackedScene" uid="uid://b5f2px7tvtnuf" path="res://farm_plot.tscn" id="6_ifnkk"]
+[ext_resource type="PackedScene" uid="uid://b7v0wbgt45klj" path="res://menu.tscn" id="7_2wk6o"]
+[ext_resource type="PackedScene" uid="uid://bb8dqhbdvputv" path="res://CustomAvatar.tscn" id="8_0nhov"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_iujun")
+
+[node name="Tilemap" parent="." instance=ExtResource("1_4dcd3")]
+position = Vector2(313, -16)
+
+[node name="Player" parent="Tilemap" instance=ExtResource("2_oeb5b")]
+y_sort_enabled = false
+position = Vector2(216, 467)
+
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="Tilemap/Player"]
+position = Vector2(-0.421051, 1.99997)
+remote_path = NodePath("../../../Camera2D")
+
+[node name="Tree1" parent="Tilemap" instance=ExtResource("5_olmav")]
+position = Vector2(243, 223)
+
+[node name="Tree2" parent="Tilemap" instance=ExtResource("5_olmav")]
+position = Vector2(193, 269)
+
+[node name="FarmPlot1_1" parent="Tilemap" instance=ExtResource("6_ifnkk")]
+position = Vector2(14, 429)
+
+[node name="FarmPlot1_2" parent="Tilemap" instance=ExtResource("6_ifnkk")]
+position = Vector2(14, 461)
+collision_mask = 0
+
+[node name="FarmPlot1_3" parent="Tilemap" instance=ExtResource("6_ifnkk")]
+position = Vector2(14, 493)
+collision_mask = 0
+
+[node name="FarmPlot1_4" parent="Tilemap" instance=ExtResource("6_ifnkk")]
+position = Vector2(14, 525)
+collision_mask = 0
+
+[node name="FarmPlot1_5" parent="Tilemap" instance=ExtResource("6_ifnkk")]
+position = Vector2(-18, 429)
+
+[node name="FarmPlot1_6" parent="Tilemap" instance=ExtResource("6_ifnkk")]
+position = Vector2(-18, 461)
+
+[node name="FarmPlot1_7" parent="Tilemap" instance=ExtResource("6_ifnkk")]
+position = Vector2(-18, 493)
+
+[node name="FarmPlot1_8" parent="Tilemap" instance=ExtResource("6_ifnkk")]
+position = Vector2(-18, 525)
+
+[node name="FarmPlot1_9" parent="Tilemap" instance=ExtResource("6_ifnkk")]
+position = Vector2(-50, 429)
+
+[node name="FarmPlot1_10" parent="Tilemap" instance=ExtResource("6_ifnkk")]
+position = Vector2(-50, 461)
+
+[node name="FarmPlot1_11" parent="Tilemap" instance=ExtResource("6_ifnkk")]
+position = Vector2(-50, 493)
+
+[node name="FarmPlot1_12" parent="Tilemap" instance=ExtResource("6_ifnkk")]
+position = Vector2(-50, 525)
+
+[node name="FarmPlot1_13" parent="Tilemap" instance=ExtResource("6_ifnkk")]
+position = Vector2(-82, 429)
+collision_mask = 0
+
+[node name="FarmPlot1_14" parent="Tilemap" instance=ExtResource("6_ifnkk")]
+position = Vector2(-82, 461)
+
+[node name="FarmPlot1_15" parent="Tilemap" instance=ExtResource("6_ifnkk")]
+position = Vector2(-82, 493)
+
+[node name="FarmPlot1_16" parent="Tilemap" instance=ExtResource("6_ifnkk")]
+position = Vector2(-82, 525)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(528.2, 454.8)
+scale = Vector2(1.9, 1.9)
+zoom = Vector2(2, 2)
+
+[node name="HUD" parent="Camera2D" instance=ExtResource("4_qv1i6")]
+offset_left = -9.05267
+offset_top = -47.7894
+offset_right = -9.05267
+offset_bottom = -47.7894
+scale = Vector2(0.25, 0.25)
+
+[node name="Menu" parent="." instance=ExtResource("7_2wk6o")]
+visible = false
+
+[node name="CustomAvatar" parent="Menu" instance=ExtResource("8_0nhov")]
+visible = false
+
+[connection signal="AdvanceDay" from="Tilemap" to="." method="_on_tilemap_advance_day"]
+[connection signal="plant_seed" from="Tilemap" to="." method="_on_tilemap_plant_seed"]
+[connection signal="PlotClicked" from="Tilemap/FarmPlot1_1" to="Tilemap" method="_on_farm_plot_1_1_plot_clicked"]
+[connection signal="PlotClicked" from="Tilemap/FarmPlot1_2" to="Tilemap" method="_on_farm_plot_1_2_plot_clicked"]
+[connection signal="PlotClicked" from="Tilemap/FarmPlot1_3" to="Tilemap" method="_on_farm_plot_1_3_plot_clicked"]
+[connection signal="PlotClicked" from="Tilemap/FarmPlot1_4" to="Tilemap" method="_on_farm_plot_1_4_plot_clicked"]
+[connection signal="PlotClicked" from="Tilemap/FarmPlot1_5" to="Tilemap" method="_on_farm_plot_1_5_plot_clicked"]
+[connection signal="PlotClicked" from="Tilemap/FarmPlot1_6" to="Tilemap" method="_on_farm_plot_1_6_plot_clicked"]
+[connection signal="PlotClicked" from="Tilemap/FarmPlot1_7" to="Tilemap" method="_on_farm_plot_1_7_plot_clicked"]
+[connection signal="PlotClicked" from="Tilemap/FarmPlot1_8" to="Tilemap" method="_on_farm_plot_1_8_plot_clicked"]
+[connection signal="PlotClicked" from="Tilemap/FarmPlot1_9" to="Tilemap" method="_on_farm_plot_1_9_plot_clicked"]
+[connection signal="PlotClicked" from="Tilemap/FarmPlot1_10" to="Tilemap" method="_on_farm_plot_1_10_plot_clicked"]
+[connection signal="PlotClicked" from="Tilemap/FarmPlot1_11" to="Tilemap" method="_on_farm_plot_1_11_plot_clicked"]
+[connection signal="PlotClicked" from="Tilemap/FarmPlot1_12" to="Tilemap" method="_on_farm_plot_1_12_plot_clicked"]
+[connection signal="PlotClicked" from="Tilemap/FarmPlot1_13" to="Tilemap" method="_on_farm_plot_1_13_plot_clicked"]
+[connection signal="PlotClicked" from="Tilemap/FarmPlot1_14" to="Tilemap" method="_on_farm_plot_1_14_plot_clicked"]
+[connection signal="PlotClicked" from="Tilemap/FarmPlot1_15" to="Tilemap" method="_on_farm_plot_1_15_plot_clicked"]
+[connection signal="PlotClicked" from="Tilemap/FarmPlot1_16" to="Tilemap" method="_on_farm_plot_1_16_plot_clicked"]
+[connection signal="OpenMenu" from="Camera2D/HUD" to="." method="_on_hud_open_menu"]
+[connection signal="ToNextDay" from="Camera2D/HUD" to="." method="_on_hud_to_next_day"]
+[connection signal="ToolEquipped" from="Camera2D/HUD" to="Tilemap/Player" method="_on_hud_tool_equipped"]
+[connection signal="ToolUnequipped" from="Camera2D/HUD" to="Tilemap/Player" method="_on_hud_tool_unequipped"]
+[connection signal="ChangeAvatar" from="Menu" to="Menu/CustomAvatar" method="_on_menu_change_avatar"]
+[connection signal="MusicChanged" from="Menu" to="Tilemap" method="_on_menu_music_changed"]
+[connection signal="VolumeChanged" from="Menu" to="." method="_on_menu_volume_changed"]
+[connection signal="CustomAvatar" from="Menu/CustomAvatar" to="Tilemap/Player" method="_on_custom_avatar_custom_avatar"]

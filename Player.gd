@@ -33,3 +33,7 @@ func _on_hud_tool_equipped(tool): #set the character animations to equip the too
 func _on_hud_tool_unequipped():
 	tool_selected = ""
 	$"/root/PlayerData".update_tool_equipped("Unequip")
+
+
+func _on_custom_avatar_custom_avatar(frames):
+	$AnimatedSprite2D.sprite_frames = load(frames)

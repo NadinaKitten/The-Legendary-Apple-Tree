@@ -1,13 +1,14 @@
 extends Control
+signal Back
 signal StartGame
-var save_slot : int 
+var save_slot : String
 var avatar_selected = ""
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
 
 func new_player(SaveFile):
-	save_slot = int(SaveFile)
+	save_slot = SaveFile
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -26,3 +27,7 @@ func _on_ok_pressed():
 
 func _on_avatar_options_change_avatar(avatar):
 	avatar_selected = avatar
+
+func _on_back_pressed():
+	save_slot = ""
+	Back.emit()

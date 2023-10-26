@@ -39,7 +39,6 @@ func _ready():
 	FP1_15 = $"/root/PlayerData".FP1_15_state
 	FP1_16 = $"/root/PlayerData".FP1_16_state
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
@@ -378,3 +377,12 @@ func _on_bed_body_entered(body):
 
 func _on_bed_body_exited(body):
 	player_near_bed = false
+
+func _on_menu_music_changed(pressed):
+	if pressed == true:
+		$AudioStreamPlayer.stream_paused = true
+	else:
+		$AudioStreamPlayer.stream_paused = false
+
+func _on_audio_stream_player_finished():
+	$AudioStreamPlayer.play()

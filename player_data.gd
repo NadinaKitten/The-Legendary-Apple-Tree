@@ -1,12 +1,16 @@
 extends Node
-
+var save_data_slot : String = ""
+var data_password : String = "123456"
+var game_state_file : String = "user://savedgame" + save_data_slot + ".sav"
 var player_name : String
+var calendar_day : int = 1
 var hoe_equipped : bool = false
 var axe_equipped : bool = false
 var pickaxe_equipped : bool = false
 var seed_bag_open : bool = false
 var seed_equipped : String = ""
 var player_in_FZ_1 : bool = false
+var music_playing : bool = true
 #var test_var = "this is a test"
 var FP1_1_state : Dictionary = {"tilled" = false,
 								"planted" = false,

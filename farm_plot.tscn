@@ -1,0 +1,46 @@
+[gd_scene load_steps=6 format=3 uid="uid://b5f2px7tvtnuf"]
+
+[ext_resource type="Texture2D" uid="uid://dw4nrx7w0u1b3" path="res://crops/crops-v2/CropOutline.png" id="1_g6pn3"]
+[ext_resource type="Script" path="res://farm_plot.gd" id="1_xoprh"]
+[ext_resource type="FontFile" uid="uid://rckw2fcskq38" path="res://Themes/dum1/dum1.ttf" id="3_5mufj"]
+[ext_resource type="ButtonGroup" uid="uid://bpoljn881alha" path="res://Themes/SeedButtons.tres" id="4_oalgd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4tfty"]
+size = Vector2(32.25, 32.3125)
+
+[node name="FarmPlot" type="Area2D"]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_xoprh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 2)
+shape = SubResource("RectangleShape2D_4tfty")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+show_behind_parent = true
+position = Vector2(1, 2)
+scale = Vector2(2, 2)
+texture = ExtResource("1_g6pn3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." groups=["FarmPlots"]]
+position = Vector2(1, 2)
+speed_scale = 0.0
+offset = Vector2(0, -16)
+
+[node name="Info" type="Button" parent="."]
+visible = false
+offset_left = -15.0
+offset_top = -11.0
+offset_right = 17.0
+offset_bottom = 12.0
+theme_override_fonts/font = ExtResource("3_5mufj")
+theme_override_font_sizes/font_size = 12
+toggle_mode = true
+button_group = ExtResource("4_oalgd")
+text = "Test"
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]

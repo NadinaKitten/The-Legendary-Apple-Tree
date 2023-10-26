@@ -11,6 +11,10 @@ func _process(delta):
 
 func _on_save_pressed(): #catch avatar selection and signal it
 	CustomAvatar.emit(avatar_chosen)
+	hide()
 
 func _on_grid_container_change_avatar(avatar):
 	avatar_chosen = avatar
+
+func _on_menu_change_avatar():
+	show()

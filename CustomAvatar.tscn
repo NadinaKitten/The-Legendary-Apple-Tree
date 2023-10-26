@@ -1,0 +1,58 @@
+[gd_scene load_steps=6 format=3 uid="uid://bb8dqhbdvputv"]
+
+[ext_resource type="Script" path="res://CustomAvatar.gd" id="1_y11rh"]
+[ext_resource type="Theme" uid="uid://dqiic5vew0v7e" path="res://Themes/BlueUI.tres" id="3_fip6x"]
+[ext_resource type="PackedScene" uid="uid://co805t2g3nf5w" path="res://Avatar_Options.tscn" id="4_5dvtr"]
+
+[sub_resource type="Gradient" id="Gradient_vr8bb"]
+colors = PackedColorArray(0.180653, 0.723632, 0.790399, 1, 0, 0.413834, 0.413862, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_xgcnd"]
+gradient = SubResource("Gradient_vr8bb")
+repeat = 2
+
+[node name="CustomAvatar" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_y11rh")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_xgcnd")
+
+[node name="Save" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -245.0
+offset_top = -79.0
+offset_right = -130.0
+offset_bottom = -54.0
+grow_horizontal = 0
+grow_vertical = 0
+scale = Vector2(1.2, 1.2)
+theme = ExtResource("3_fip6x")
+text = "Save
+"
+
+[node name="GridContainer" parent="." instance=ExtResource("4_5dvtr")]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 305.0
+offset_bottom = 227.0
+
+[connection signal="pressed" from="Save" to="." method="_on_save_pressed"]
+[connection signal="change_avatar" from="GridContainer" to="." method="_on_grid_container_change_avatar"]
